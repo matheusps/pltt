@@ -1,0 +1,11 @@
+@each $name, $color in $colors
+  .bg-#{$name}
+    background-color: $color
+  .c-#{$name}
+    color: $color
+  .b-#{$name}--solid
+    border: .125rem solid $color
+  .b-#{$name}--dotted
+    border: .125rem dotted $color
+  .b-#{$name}--dashed
+    border: .125rem dashed $color
