@@ -1,11 +1,55 @@
 @each $name, $color in $colors
   .bg-#{$name}
     background-color: $color
+  .hover--bg-#{$name}:hover
+    background-color: $color
+  .focus--bg-#{$name}:focus
+    background-color: $color
+  .active--bg-#{$name}:active
+    background-color: $color
+  .disabled--bg-#{$name}:disabled
+    background-color: $color
+
   .c-#{$name}
     color: $color
+  .hover--c-#{$name}:hover
+    color: $color
+  .focus--c-#{$name}:focus
+    color: $color
+  .active--c-#{$name}:active
+    color: $color
+  .disabled--c-#{$name}:disabled
+    color: $color
+
   .b-#{$name}--solid
     border: .125rem solid $color
+  .hover--b-#{$name}--solid:hover
+    border: .125rem solid $color
+  .focus--b-#{$name}--solid:focus
+    border: .125rem solid $color
+  .active--b-#{$name}--solid:active
+    border: .125rem solid $color
+  .disabled--b-#{$name}--solid:disabled
+    border: .125rem solid $color
+
   .b-#{$name}--dotted
     border: .125rem dotted $color
+  .hover--b-#{$name}--dotted:hover
+    border: .125rem dotted $color
+  .focus--b-#{$name}--dotted:focus
+    border: .125rem dotted $color
+  .active--b-#{$name}--dotted:active
+    border: .125rem dotted $color
+  .disabled--b-#{$name}--dotted:disabled
+    border: .125rem dotted $color
+
   .b-#{$name}--dashed
+    border: .125rem dashed $color
+  .hover--b-#{$name}--dashed:hover
+    border: .125rem dashed $color
+  .focus--b-#{$name}--dashed:focus
+    border: .125rem dashed $color
+  .active--b-#{$name}--dashed:active
+    border: .125rem dashed $color
+  .disabled--b-#{$name}--dashed:disabled
     border: .125rem dashed $color
